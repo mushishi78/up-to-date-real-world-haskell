@@ -754,7 +754,7 @@ that is to deallocate the C resource once it notices that the
 Haskell data is done with.
 
 We have two tools at our disposal here, the opaque ~ForeignPtr~
-data type, and the ~NewForeignPtr~ function, which has type:
+data type, and the ~newForeignPtr~ function, which has type:
 
 #+CAPTION: ForeignPtr.hs
 #+BEGIN_SRC haskell
